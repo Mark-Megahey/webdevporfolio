@@ -44,16 +44,16 @@ Header
 /********************************
 My Info
 ********************************/
-.my-info{
+.my-info {
   padding: 20px;
 }
 
-.info__heading{
+.info__heading {
   color: #8aa6ae;
   margin-bottom:20px;
 }
 
-.info__content{
+.info__content {
 
 }
 
@@ -72,5 +72,44 @@ My Info
 
 .info__item span {
   color: #14455D;
+  font-weight: bold;
+}
+
+/********************************
+My Experience
+********************************/
+.my-experience {
+  padding: 20px;
+}
+
+.experience__heading {
+  color: #8aa6ae;
+  margin-bottom:20px;
+}
+
+.experience__content {
+
+}
+
+.experience {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__item {
+  margin-bottom:5px;
+
+}
+
+.experience__aside h4 {
+  color: #14455D;
+  font-weight: bold;
+}
+
+.experience__main h4 {
+  color: #8aa6ae;
   font-weight: bold;
 }
