@@ -117,7 +117,7 @@ My Experience
 }
 
 /********************************
-My Experience
+My Skills
 ********************************/
 .my-skills {
   padding: 20px;
@@ -148,4 +148,71 @@ My Experience
 .skills__item span {
   color: #14455D;
   font-weight: bold;
+}
+
+.skills__progress-bar {
+  width:100%;
+  max-width:250px;
+  height:20px;
+  margin:3px;
+  border:1px #9aa4a8 solid;
+}
+
+.skills__progress-fill {
+  background:#9aa4a8;
+  height:100%;
+}
+
+/********************************
+My References
+********************************/
+
+.my-references {
+  padding: 20px;
+}
+
+.reference__heading {
+  color: #8aa6ae;
+  margin-bottom:20px;
+}
+
+.reference__content {
+
+}
+
+.reference {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.reference__item {
+  margin-bottom:5px;
+}
+
+.reference__item span {
+  color: #14455D;
+  font-weight: bold;
+}
+
+.reference__item h4{
+  color: #8aa6ae;
+}
+
+/********************************
+My Footer
+********************************/
+.mobile{
+  border-top: 2px #14455D solid;
+  border-bottom: 2px #14455D solid;
+  text-align: center;
+  padding: 10px 0;
+  color: #8aa6ae;
+  font-size: 10px;
+}
+
+.fullscreen{
+  display: none;
 }
