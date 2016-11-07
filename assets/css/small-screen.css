@@ -10,6 +10,7 @@ Header
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .shader{
@@ -192,13 +193,13 @@ My References
   margin-bottom:5px;
 }
 
-.reference__item span {
-  color: #14455D;
-  font-weight: bold;
-}
-
 .reference__item h4{
   color: #8aa6ae;
+}
+
+.reference__name {
+  color: #14455D;
+  font-weight: bold;
 }
 
 /********************************
